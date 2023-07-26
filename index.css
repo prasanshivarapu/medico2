@@ -1,0 +1,238 @@
+.facebooklogo{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+.medicologo{
+    height: 35px;
+    min-width: 100px;
+}
+.nav-link {
+  color: black !important;
+   
+}
+@media screen and (min-width:756px){
+    .medicologo{
+        height: 50px;
+        width: 160px;
+    }
+}
+
+
+.main2{
+    background-color: #EAE8E9;  
+    height: 350px;
+    min-width: 730px;
+    margin-left: 10px;   
+   
+ }
+ .innerbackground {
+    background-color: #3BCBFB;
+   height: 350px;
+    width: 706px;
+   
+ }
+ .innersection{
+    margin: 20px;
+    background-color: #2DB8E5;
+    height: 200px;
+    width: 250px;
+    border: solid;
+    
+    
+ }
+ .image3{
+  height: 350px;
+    width: 380px;
+    margin-left: 10px;
+ }   
+ .para{
+    color: white;
+    font-style: italic;
+    height: 50px;
+    width: 150px;
+  
+    margin-left: 15px;
+    
+ }
+ .secondsection{
+    padding-top: 10px;
+    height: 535px;
+    background-color:#3ACCFA;
+   
+ }
+ .secondinnersection{
+    margin: 10px;
+    margin-top: 10px;
+    background-color: #2CB7E4;
+    
+ }
+ .second-inner-section-para{
+    color: white;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .second-inner-section-para2{
+    text-align: center;
+    font-style: italic;
+    color: white;
+ }
+.second-inner-section-para3{
+  color:#124B75; 
+  margin-left: 5px; 
+}
+.para-inner-part{
+    margin-left: 3px;
+    margin-right: 5px;
+}
+.main-image{
+    height: 220px;
+   width: 100%;
+}
+.large-screen{
+    display: none;
+    background-color: #EAE8E9;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+@media screen and (min-width:763px) {
+    .small-device{
+        display: none;
+    }
+    .large-screen{
+        display: block;
+    }
+    .secondinnersection{
+        height: 250px;
+        width: 300px;
+        font-size: 20px;
+        padding: 10px;
+        margin: 10px;
+        margin-left: 35px;
+    }
+    .second-inner-section-para2{
+        text-align: left;
+    }
+    .secondsection{
+        height: 420px;
+    }
+    .main-image{
+        height: 420px;
+        width: 650px;
+    }
+    .second-inner-section-para3{
+        margin-left: 35px;
+    }
+    .second-inner-section-para2{
+        margin-left: 35px;
+        width: 180px;
+       
+        font-size: 21px;
+    }
+    .secondsection{
+        padding: 0px;
+    }
+}
+.third-section{
+    background-color: white;
+    height: 300px;
+   
+}
+.third-section-part1{
+    
+    margin:10px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.simage{
+    height: 65px;
+   
+}
+.third-section-para{
+    color: #8A8889;
+   
+    font-size: large;
+  
+}
+.third-section-para1{
+    margin-top: 22px;
+    font-weight: 500;
+}
+.third-section-outer{
+   
+   margin: 10px;
+}
+.third-section-button{
+    background-color:#BC352F;
+    height: 50px;
+    width: 250px;
+    color: white;
+    border-color: transparent;
+}
+.third-section-larger{
+    display: none;
+}
+.third-section-heading{
+    
+}
+.third-section-parag{
+    width: 230px;
+    color: #8A8889;
+} 
+@media screen  and (min-width:763px) {
+   
+    .third-section{
+        display: none;
+    }
+    .third-section-larger{
+    display: block;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 50px;
+    }
+    .third-section-para12{
+        width: 200px;
+        font-weight: 500;
+    }
+    .third-section{
+        background-color: white;
+        height: 300px;
+    }
+    .third-section-part1{
+       
+        margin:10px ;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+    }
+    .simage{
+        height: 55px;
+    }
+    .third-section-para{
+        color: #8A8889;
+        width: 250px;
+    }
+    .third-section-para1{
+        margin-top: 18px;
+        font-weight: 500;
+    }
+    .third-section-outer{
+       
+    }
+    .third-section-button{
+        background-color:#BC352F;
+        height: 50px;
+        width: 250px;
+        color: white;
+        border-color: transparent;
+    }
+    
+    .third-section-heading{
+        font-size: 20px;
+    }
+    .third-section-parag{
+        width: 230px;
+        color: #8A8889;
+    } 
+}
