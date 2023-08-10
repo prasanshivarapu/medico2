@@ -6,22 +6,45 @@ body{
     margin-top: 10px;
     margin-bottom: 0px;
     margin-right: 10px;
-}
-.nav{
+    color: rgb(139, 135, 135);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transform: transform 0.2s ease;
     
+}
+.facebooklogo:hover{
+    transform: scale(0.9);
+    transform: transform 0.2s ease;
+    fill:#124F7A
+
+
+}
+.fb-img{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background: transparent url("f.jpg") center top no-repeat;
+    
+    vertical-align: -10px;
 }
 .medicologo{
     height: 35px;
-    min-width: 100px;
+    
 }
 .nav-link {
   color: black !important;
    
 }
+
 @media screen and (min-width:763px){
     .medicologo{
         height: 50px;
         width: 160px;
+    }
+    .navb{
+        border: solid;
+        width: 966px;
     }
 }
 
@@ -93,6 +116,7 @@ body{
 .main2{
     background-color: #EAE8E9;  
      height: 100px; 
+     width: 100%;
      
    
     
@@ -101,6 +125,8 @@ body{
     background-color: #3BCBFB;
     height: 100px;
     margin-bottom: 25px;
+    
+    
    
    
     
@@ -137,44 +163,6 @@ body{
 
 
 
-/* @media screen and (min-width:763px) {
-    .small-device{
-        display: none;
-    }
-    .large-screen{
-        display: block;
-    }
-    .secondinnersection{
-        height: 250px;
-        min-width: 250px;
-        font-size: 20px;
-        padding: 10px;
-        margin: 10px;
-        margin-left: 35px;
-    }
-    .second-inner-section-para2{
-        text-align: left;
-    }
-    .secondsection{
-        height: 420px;
-    }
-    .main-image{
-        height: 420px;
-        min-width: 450px;
-    }
-    .second-inner-section-para3{
-        margin-left: 35px;
-    }
-    .second-inner-section-para2{
-        margin-left: 35px;
-        width: 180px;
-       
-        font-size: 21px;
-    }
-    .secondsection{
-        padding: 0px;
-    }
-} */
 .third-section{
     background-color: white;
     height: 300px;
@@ -188,30 +176,45 @@ body{
     padding-left: 5px;
     
     padding-right: 5px;
-    min-width: 250px;
+    min-width: 100px;
     margin-left: 5px;
     text-align: center;
     border-radius: 10px;
     border-style: solid;
     border-color: #e5eaf4;
     border-width: 1px;
+    
 }
 .simage{
     height: 65px;
-    
-    
+    text-align: left;
    
+    padding-right: 6px;
+}
+
+.third-section-para-1{
+font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #8A8889;
+    text-decoration: none;
+    text-align: left;
 }
 .third-section-para{
-    color: #8A8889;
-   
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+    font-weight: normal;
+    color: #808080;
+    margin-bottom: 10px;
     text-align: left;
   
 }
 .third-section-para1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
     margin-top: 22px;
-    font-weight: 500;
+    text-align: left;
    
 }
 .third-section-outer{
@@ -227,17 +230,35 @@ body{
    padding: 5px;
 }
 .third-section-button{
-    background-color:#BC352F;
+    
     height: 50px;
-    min-width: 50px;
-    color: white;
+   
+   
     border-color: transparent;
+
+
+    color: #FFFFFF;
+    font-size: 13px;
+    min-width: 100px;
+    text-align: center;
+   
+    vertical-align: middle;
+    
+    padding: 15px 40px 15px 40px;
+    border-radius: 2px;
+    background-color: #E25456;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
 }
 .third-section-larger{
     display: none;
 }
 .third-section-heading{
-   font-size: 20px; 
+    font-size: 26px;
+    font-weight: bold;
+    color: #404040;
+   text-align: left;
 }
 .third-section-parag{
     width: 230px;
@@ -246,70 +267,30 @@ body{
 @media screen and (min-width:756px) {
     .third-section-part1{
         height: 340px;
+      
         padding: 5px;
     }
     .third-section-outer{
         height: 340px;
         padding: 5px;
     }
-    
-}
-/* @media screen  and (min-width:763px) {
-   
-    .third-section{
-        display: none;
-    }
-    .third-section-larger{
-    display: block;
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-top: 50px;
-    }
-    .third-section-para12{
-        width: 200px;
-        font-weight: 500;
-    }
-    .third-section{
-        background-color: white;
-        height: 300px;
-    }
     .third-section-part1{
-       
-        margin:10px ;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 5px;
-    }
-    .simage{
-        height: 55px;
-    }
-    .third-section-para{
-        color: #8A8889;
+        border-style: none;
         width: 250px;
-    }
-    .third-section-para1{
-        margin-top: 18px;
-        font-weight: 500;
     }
     .third-section-outer{
-       
+        border-style: none;
     }
     .third-section-button{
-        background-color:#BC352F;
-        height: 50px;
-        width: 250px;
-        color: white;
-        border-color: transparent;
+        width: 230px;
+    }
+    .sp{
+        width: 100%;
+        height: 400px;
     }
     
-    .third-section-heading{
-        font-size: 20px;
-    }
-    .third-section-parag{
-        width: 230px;
-        color: #8A8889;
-    } 
-} */
+}
+
 
 
 .number{
@@ -362,7 +343,11 @@ border-radius: 10px;
     
     min-width: 100px;
 }
-
+@media screen and (min-width:756px) {
+    .number1{
+        border-style: none;
+    }
+}
    
 .course1{
     text-align: center;
@@ -383,6 +368,7 @@ border-radius: 10px;
     background-color: #555354;
     min-height: 80px;
     position: relative;
+    margin-top: 18px;
   }
   
   .join-our-section-para {
@@ -395,20 +381,47 @@ border-radius: 10px;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
+  .youtube-video{
+    min-width: 100px;
+  }
   .youtube-section{
-    background-color: #D3D3D3;
+    background-color: #EAEAEA;
     min-height: 350px;
-    padding: 20px;
+    
   }
   .workshop-heading{
-    text-align: center;
+    
     font-size: medium;
     font-weight: 900;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+ padding-top: 20px;
+   
+    
+  }
+  .img2{
+    height: 120px;
+    margin-bottom: 5px;
+  }
+  @media screen and (min-width:756px) {
+    .workshop-heading{
+        padding: 28px;
+        padding-left: 85px;
+        font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    
+    line-height: 25px;
+    color: #4A4A4A;
+        
+    }
   }
   .Galary{
     flex-wrap: wrap;
+    align-items: center;
   }
   .workshop-inner{
     margin: 10px;
@@ -416,8 +429,45 @@ border-radius: 10px;
     
     min-width: 90px;
   }
+  .vibes1{
+    background-color: #EAEAEA;
+  }
   .vibes{
-    margin-left: 25px;
+    /* margin-left: 25px; */
+    background-color: #D3D3D3;
+    min-height: 350px;
+   
+   
+    
+  }
+  .doct-border3{
+    background-image: url("free-bg.jpg");
+    height: 430px;
+    width: 300px;
+    background-size: cover;
+    padding: 6px;
+  }
+  .doct-border4{
+    background-image: url("nurse-bg.jpg");
+    height: 430px;
+    width: 300px;
+    background-size: cover;
+    padding: 6px;
+  }
+  .doct-border5{
+    background-image: url("advance-bg.jpg");
+    height: 430px;
+    width: 310px;
+    background-size: cover;
+    padding: 6px;
+  }
+  @media screen and (min-width:756px) {
+    .vibes{
+         margin-left: 50px;
+        width: 760px;
+    }
+    
+    
   }
 
 
@@ -452,12 +502,10 @@ border-radius: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 800;
 }
-.con{
-    
-}
+
 .doc{
     background-color: white;
-    min-height: 400px;
+    min-height: 250px;
     width: 100%;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -468,21 +516,29 @@ border-radius: 10px;
 
 .doct-border{
     background-color:#F6F6F6;
-    min-height: 580px;
-    padding: 25px;
-    padding-top: 40px;
-    border-radius: 10px;
+    height: 450px;
+    width: 320px;
+    /* padding: 25px;
+    padding-top: 40px; */
+    /* border-radius: 10px; */
    border-style: solid;
    border-color: #e5eaf4;
    border-width: 1px;
    margin: 5px;
+   padding: 3px;
 }
-.doct-border1{
-    background-color:#36B4CF;
-    height: 220px;
+@media screen and (min-width:756px) {
+    .doct-border{
+        border-style: none;
+    }
+}
+/* .doct-border1{
+    
+    height: 230px;
+   
    padding-bottom: 15px;
 
-}
+} */
 .subpara{
    width: 300px;
    
@@ -490,6 +546,14 @@ border-radius: 10px;
 .view{
     background-color: #E25456;
     color: white;
+    font-size: 15px;
+    min-width: 100px;
+    border-color: transparent;
+    height: 30px;
+}
+.view-nurse{
+       background-color: #98CB44;
+       color: white;
     font-size: 15px;
     min-width: 100px;
     border-color: transparent;
@@ -509,9 +573,7 @@ border-radius: 10px;
     height: 200px;
 }
 
-.tor{
-   
-}
+
 .student{
     color: #C9C9C9;
     width: 150px;
@@ -552,25 +614,30 @@ border-radius: 10px;
 
 .doct{
     height: 120px;
-    position: relative; /* or "position: fixed;" if you want it fixed relative to the viewport */
+    position: relative; 
    top: -28px;
    border-radius: 50%;
    border-color: #615e5f;
     
 }
 .ad{
+    margin-top: 120px;
     text-align: center;
     color: white;
-    font-size: medium;
+    font-size: 20px;
 
 }
 .ad-heading{
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #F5F3F4;
+ 
 
 }
 .ad-para{
-     padding-bottom: 5px;
+     /* padding-bottom: 5px; */
+     font-size: small;
 }
 .hr-line{
     border: none;
@@ -581,8 +648,16 @@ border-radius: 10px;
 }
 .start{
     color: #8a8788;
-    font-size: medium;
+    font-size: 12px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-width: 150px;
+    padding: none;
+    
+    
+}
+.list li{
+    list-style-type: disc;
+    
 }
 .dot{
     font-size: 10px;
@@ -662,6 +737,11 @@ border-radius: 10px;
 }
 .kin{
     color: #7D7D7D;
+
+}
+.duratn{
+    text-align: center;
+    color: #706e6e;
 }
 .man{
     text-align: center;
@@ -720,9 +800,7 @@ border-radius: 10px;
         height: 50px;
 
     }
-    .dotw{
-       
-    }
+    
 }
 
 
